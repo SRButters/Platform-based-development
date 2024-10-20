@@ -1,0 +1,94 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Title for the daily goals section -->
+    <TextView
+        android:id="@+id/daily_goals_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Your Daily Goals"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp" />
+
+    <!-- Input for steps goal -->
+    <EditText
+        android:id="@+id/steps_goal_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Steps Goal"
+        android:inputType="number" />
+
+    <!-- Input for calories goal -->
+    <EditText
+        android:id="@+id/calories_goal_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Calories Goal"
+        android:inputType="number" />
+
+    <!-- Input for distance goal -->
+    <EditText
+        android:id="@+id/distance_goal_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Distance Goal (km)"
+        android:inputType="numberDecimal" />
+
+    <!-- Button to save the daily goals -->
+    <Button
+        android:id="@+id/save_goals_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Goals"
+        android:layout_gravity="center"
+        android:paddingTop="16dp" />
+
+    <!-- Divider -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Title for custom goals section -->
+    <TextView
+        android:id="@+id/custom_goals_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom Goals"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp" />
+
+    <!-- Input for custom goal -->
+    <EditText
+        android:id="@+id/goal_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Add a New Goal" />
+
+    <!-- Button to add custom goal -->
+    <Button
+        android:id="@+id/add_goal_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Goal"
+        android:layout_gravity="center"
+        android:paddingTop="8dp" />
+
+    <!-- RecyclerView for the list of goals -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/goals_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="16dp" />
+
+</LinearLayout>
+

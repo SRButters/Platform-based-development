@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="welcome_message" type="id" />
+    <item name="today_summary" type="id" />
+    <item name="steps_summary" type="id" />
+    <item name="calories_summary" type="id" />
+    <item name="distance_summary" type="id" />
+    <item name="completion_circle" type="id" />
+    <item name="completion_status" type="id" />
+</resources>
