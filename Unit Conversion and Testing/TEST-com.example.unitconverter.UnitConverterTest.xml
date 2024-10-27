@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.unitconverter.UnitConverterTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2024-10-27T14:06:31" hostname="SRBUTTERS" time="0.007">
+  <properties/>
+  <testcase name="testKilogramsToPounds" classname="com.example.unitconverter.UnitConverterTest" time="0.005"/>
+  <testcase name="testFahrenheitToCelsius" classname="com.example.unitconverter.UnitConverterTest" time="0.0"/>
+  <testcase name="testCelsiusToFahrenheit" classname="com.example.unitconverter.UnitConverterTest" time="0.0"/>
+  <testcase name="testMetersToFeet" classname="com.example.unitconverter.UnitConverterTest" time="0.0"/>
+  <testcase name="testFeetToMeters" classname="com.example.unitconverter.UnitConverterTest" time="0.0"/>
+  <testcase name="testPoundsToKilograms" classname="com.example.unitconverter.UnitConverterTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

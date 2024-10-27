@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Celsius to Fahrenheit Conversion Section -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Celsius to Fahrenheit"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editCelsius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Celsius"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/buttonCelsiusToFahrenheit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert to Fahrenheit" />
+
+    <TextView
+        android:id="@+id/textviewFahrenheitResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <!-- Meters to Feet Conversion Section -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Meters to Feet"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editMeters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Meters"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/buttonMetersToFeet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert to Feet" />
+
+    <TextView
+        android:id="@+id/textviewFeetResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <!-- Kilograms to Pounds Conversion Section -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Kilograms to Pounds"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editKilograms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Kilograms"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/buttonKilogramsToPounds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert to Pounds" />
+
+    <TextView
+        android:id="@+id/textviewPoundsResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+</LinearLayout>

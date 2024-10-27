@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editCelsius" type="id" />
+    <item name="editMeters" type="id" />
+    <item name="editKilograms" type="id" />
+    <item name="buttonCelsiusToFahrenheit" type="id" />
+    <item name="buttonMetersToFeet" type="id" />
+    <item name="buttonKilogramsToPounds" type="id" />
+    <item name="textviewFeetResult" type="id" />
+    <item name="textviewPoundsResult" type="id" />
+    <item name="textviewFahrenheitResult" type="id" />
+</resources>
